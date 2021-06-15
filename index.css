@@ -18,9 +18,9 @@ main section p {
     border-bottom: solid black 2px;
 }
 
-img {
+.showtimes img {
     height: 200px;
-    width: 100px;
+    width: 99%;
 }
 
 
