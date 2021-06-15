@@ -10,96 +10,99 @@
 <body>
     <div class="container-sm">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-            <a class="navbar-brand" href="#">Bootstrap Cinemas</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="./showtimes.html">Show Times</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="./Form.html">Join the Club</a>
-            </li>
-            
-            <!-- <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-            </li> -->
-            
-            <!-- <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li> -->
-            
-            </ul>
-            
-            <!-- <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-            </form> -->
+            <div class="container-lg">
+              <a class="navbar-brand" href="#">Bootstrap Cinema</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Show Times</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Form.html">Join the Club</a>
+                  </li>
+
+                  <!-- <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li> -->
+
+                  <!-- <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  </li> -->
+
+                </ul>
+
+                <!-- <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form> -->
+              </div>
             </div>
             </div>
             </nav>
     <main>
         <section>
             <h2>Hours of Operation</h2>
-            <div class="showtimes container-fluid">
+            <div class="showtimes container">
                 <div class="row">
-                    <div class="col-8">
+                    <div class="col-md-8">
                     Monday-Thursday
                     </div>
-                    <div class="col-4">
+                    <div class="col-md-4">
                     11am - 11:00pm
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-8">
+                    <div class="col-md-8">
                     Friday-Saturday
                     </div>
-                    <div class="col-4">
+                    <div class="col-md-4">
                     11am - 12:00am
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-8">
+                    <div class="col-md-8">
                     Sunday
                     </div>
-                    <div class="col-4">
+                    <div class="col-md-4">
                     10am - 11:00pm
                     </div>
                 </div>
             </div>
         </section>
-
+        <br/>
         <section>
             <h2>Today's Show Times</h2>
-            <div class="showtimes container-fluid">
+            <div class="showtimes container">
                 <div class="row">
-                    <div class="col-5">Peter Rabbit 2</div>
-                    <div class="col-2">11:30am, 2:00pm, 6:00pm</div>
-                    <div class="col-5"><img width="200px" height="100px" src="./resources/peterrabbit.jpeg"></div>
+                    <div class="col-md-5 order-2 order-md-1">Peter Rabbit 2</div>
+                    <div class="col-md-2 order-3 order-md-2">11:30am<br/> 2:00pm<br/> 6:00pm</div>
+                    <div class="col-md-5 order-1 order-md-3"><img width="200px" height="100px" src="./resources/peterrabbit.jpeg"></div>
                 </div>
+                <br class="col"/>
                 <div class="row">
-                    <div class="col-5">In the Heights</div>
-                    <div class="col-2">11:45am, 2:30pm, 5:00pm, 8:00pm, 10:00pm</div>
-                    <div class="col-5"><img src="./resources/intheheights.jpeg"></div>
+                    <div class="col-md-5 order-2 order-md-1">In the Heights</div>
+                    <div class="col-md-2 order-3 order-md-2">11:45am<br/> 2:30pm<br/> 5:00pm<br/> 8:00pm<br/> 10:00pm</div>
+                    <div class="col-md-5 order-1 order-md-3"><img src="./resources/intheheights.jpeg"></div>
                 </div>
+                <br class="col"/>
                 <div class="row">
-                    <div class="col-5">Hitman's Wife's Bodyguard</div>
-                    <div class="col-2">2:00pm, 5:00pm, 7:30pm, 9:50pm</div>
-                    <div class="col-5"><img src="./resources/hitmanwb.jpeg"></div>
+                    <div class="col-md-5 order-2 order-md-1">Hitman's Wife's Bodyguard</div>
+                    <div class="col-md-2 order-3 order-md-2">2:00pm<br/> 5:00pm<br/> 7:30pm<br/> 9:50pm</div>
+                    <div class="col-md-5 order-1 order-md-3"><img src="./resources/hitmanwb.jpeg"></div>
                 </div>
             </div>
         </section>
