@@ -1,0 +1,68 @@
+/* ALL */
+body {
+    width: 70%;
+    margin: auto;
+}
+
+.bc-pic {
+    height: 40vh;
+}
+
+.pics {
+    height: 20vh;
+}
+
+/* nav {
+    text-align: center;
+} */
+
+/* HOME PAGE */
+main section p {
+    border: solid black 2px;
+}
+
+.about {
+    font-size: 1.5rem;
+}
+
+.discounts {
+    text-align: center;
+    list-style-position: inside;
+}
+
+
+/* SHOWTIMES */
+
+h2 {
+    text-align: center;
+}
+
+.showtimes div {
+    border: solid black 1px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+.showtimes img {
+    height: 200px;
+    width: 99%;
+}
+
+/* REGISTER */
+.form-list{
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+}
+#msg{
+    margin: 0px; width: 487px; height: 154px;
+    resize: none;
+    overflow: hidden;
+    min-height: 50px;
+    max-height: 100px;
+}
+/* header nav {
+    width: 50%;
+    margin: auto;
+   } */
