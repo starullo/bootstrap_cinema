@@ -4,13 +4,30 @@ body {
     margin: auto;
 }
 
-nav {
-    text-align: center;
+.bc-pic {
+    height: 40vh;
 }
+
+.pics {
+    height: 20vh;
+}
+
+/* nav {
+    text-align: center;
+} */
 
 /* HOME PAGE */
 main section p {
     border: solid black 2px;
+}
+
+.about {
+    font-size: 1.5rem;
+}
+
+.discounts {
+    text-align: center;
+    list-style-position: inside;
 }
 
 
@@ -45,7 +62,7 @@ h2 {
     min-height: 50px;
     max-height: 100px;
 }
-header nav {
+/* header nav {
     width: 50%;
     margin: auto;
-   }
+   } */
